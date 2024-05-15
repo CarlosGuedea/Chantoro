@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=public_html
+    - /bin/cp -r $SOURCE_DIR/* $DEPLOYPATH
+    - /usr/local/bin/composer install --no-dev
+    - /usr/local/bin/composer dump-autoload -o
+    - /bin/rm -rf $DEPLOYPATH/vendor/bin
+    - /bin/rm -rf $DEPLOYPATH/vendor/composer
