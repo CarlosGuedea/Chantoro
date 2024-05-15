@@ -1,0 +1,60 @@
+
+.footer{
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente (opcional) */
+    text-align: center;
+}
+
+.logo-chantoro{
+    text-align: center;
+}
+
+.fotos{
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: saddlebrown;
+}
+
+.btn:hover{
+    background-color: peru;
+}
+
+
+.carrusel-container {
+    padding-top: 2rem;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.slide {
+    width: 100%;
+    display: none;
+}
+
+.caption {
+    position: absolute;
+    bottom:-15rem;
+    left: 22rem;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el subtítulo */
+    color: #fff; /* Color del texto del subtítulo */
+    padding: 10px;
+    text-align: center;
+}
+
+
+.navbar{
+    display:flex; justify-content:flex-end; text-align:right
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

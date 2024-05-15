@@ -1,0 +1,133 @@
+
+.btn{
+    font-size: 16px;
+    color: white;
+    background-color: saddlebrown;
+    width: 100px; /* Ajusta el ancho del botón según tus necesidades */
+    height: 40px; /* Ajusta la altura del botón según tus necesidades */
+}
+
+.btn:hover{
+    background-color: peru;
+}
+
+.navbar{
+    display:flex; 
+    justify-content:flex-end; 
+    text-align:right;
+}
+
+.busqueda {
+    text-align: center; /* Centrar el contenido */
+}
+
+.busqueda input[type="text"] {
+    width: 700px; /* Ajusta el ancho de la caja de búsqueda según tus necesidades */
+    height: 30px; /* Ajusta la altura de la caja de búsqueda según tus necesidades */
+    font-size: 16px; /* Ajusta el tamaño del texto en la caja de búsqueda según tus necesidades */
+    padding: 5px; /* Ajusta el relleno interno de la caja de búsqueda según tus necesidades */
+}
+
+.busqueda button.btn {
+    width: 100px; /* Ajusta el ancho del botón según tus necesidades */
+    height: 40px; /* Ajusta la altura del botón según tus necesidades */
+    font-size: 16px; /* Ajusta el tamaño del texto en el botón según tus necesidades */
+    /* Otros estilos del botón según tus necesidades */
+}
+
+.principal{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 65% 25%;
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.producto{
+    display: flex;
+    gap: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente (opcional) */
+    text-align: center;
+}
+
+article {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+section{
+    background-color: white;
+}
+body{
+    background-color: #f4f4f4;
+}
+
+.login-container {
+    width: 350px; /* Ajusta el ancho */
+    height: 300px; /* Ajusta la altura */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.chantoro-logo{
+    background-color: #f4f4f4;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn-blue{
+    color: white;
+}
